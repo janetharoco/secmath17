@@ -1,3 +1,7 @@
+```{r}
+
+```
+
 ---
 title: "Hands on Programming with R: Activity in Sec Math 17"
 author: "Janeth D. Aroco"
@@ -5,23 +9,49 @@ format: html
 editor: visual
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+## Chapter 1 The Very Basics
 
 ```{r}
-1 + 1
+1+1
 ```
-
-You can add options to executable code like this
 
 ```{r}
-#| echo: false
-2 * 2
+100:13
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+```{r}
+2*3
+4-1
+6/(4-1)
+```
+
+```{r}
+a <-1
+```
+
+## Creating a die
+
+```{r}
+die <-1:6
+```
+
+```{r}
+ls()
+```
+
+```{r}
+b<-die -1
+```
+
+```{r}
+die/2
+```
+
+```{r}
+die*die
+```
+
+```{r}
+abc <-1:5
+c<-die*abc
+```
