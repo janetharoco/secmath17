@@ -12,3 +12,9 @@ What Will You Learn
 Review the pipeline because sir will make it a part of our exam
 
 ![pipeline](rfords1.png)
+
+## The Tidyverse
+
+to install the tidyverse use the code:
+
+`install.packages("tidyverse")`
